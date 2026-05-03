@@ -1,25 +1,41 @@
-# Tetris
-One of my first tries creating my own tetris. It's so weird that it's still funny.
+# Stickman Drop: Neo‑Tetris Arcade
 
-## Requirements
+Juego arcade inspirado en Tetris, pero con un giro revolucionario:
 
-This is a simple Tetris game developed in Python using the Pygame library.
+- Eres un **stickman** que debe moverse y saltar para sobrevivir.
+- Los bloques caen automáticamente desde arriba.
+- Pierdes cuando un bloque te aplasta.
+- Incluye **música dramática tecno** en bucle.
+- Tiene **contador de puntos**, **niveles** y **aumento progresivo de velocidad**.
+- Agrega retos dinámicos como lluvia intensa y bloques gigantes.
 
-To run this game, you need to have the following installed:
+## Requisitos
 
-- Python 3.10 or higher
-- Pygame 2.0 or higher
+- Python 3.10+
+- Pygame 2.0+
 
-You can install the necessary dependencies by running the following command:
+Instalación:
 
+```bash
 pip install pygame
+```
 
-Clone this repository to your local machine using git:
+## Ejecutar
 
-git clone https://github.com/Afer23/tetris.git
-cd tetris
-Install the necessary dependencies as mentioned in the requirements section.
-
-Run the game using Python:
-
+```bash
 python tetris.py
+```
+
+## Controles
+
+- **A / Flecha Izquierda**: mover a la izquierda
+- **D / Flecha Derecha**: mover a la derecha
+- **Espacio / W / Flecha Arriba**: saltar
+- **R**: reiniciar al perder
+
+## Mecánicas arcade
+
+- Cada ~10 segundos sube el nivel.
+- Al subir de nivel, los bloques caen más rápido y aparecen con mayor frecuencia.
+- La puntuación sube por tiempo de supervivencia y por esquivar bloques.
+- Desafíos rotativos según nivel (reflejos, lluvia tecno, bloques gigantes).
